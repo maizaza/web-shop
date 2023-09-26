@@ -24,13 +24,11 @@ app.set("views", path.join(__dirname, "views"));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.render("home")
+    res.render("index")
 })
 
 app.get('/home', (req, res) => {
-    res.json({
-        "Home": "HOMEPAGE"
-    })
+    res.render("home")
 })
 
 module.exports = app;
