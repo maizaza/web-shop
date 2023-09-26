@@ -1,11 +1,10 @@
 const express = require('express')
 const app = express()
-const router = express.Router()
 const ejs = require('ejs');
 const path = require('path')
-const mongoose = require('mongoose')
-const expressSession = require('express-session')
-const flash = require('connect-flash')
+// const mongoose = require('mongoose')
+// const expressSession = require('express-session')
+// const flash = require('connect-flash')
 
 // mongoose.connect('mongodb+srv://admin:0987654321z@cluster0.vhsadmo.mongodb.net/?retryWrites=true&w=majority', {
 //     useNewUrlParser: true
